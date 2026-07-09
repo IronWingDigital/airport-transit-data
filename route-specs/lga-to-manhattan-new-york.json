@@ -1,0 +1,80 @@
+{
+  "route": "LGA → Manhattan",
+  "note": "fares all-in, per person",
+  "lines": [
+    {
+      "mode": "rail",
+      "label": "Q70 Link + Subway",
+      "fare": "$3.00",
+      "time": "50–75 min",
+      "dashed": false,
+      "stops": [
+        {
+          "name": "LGA"
+        },
+        {
+          "name": "Jackson Hts–Roosevelt",
+          "seg": "Q70 free bus · 10–15 min"
+        },
+        {
+          "name": "Midtown",
+          "seg": "E train · 20–25 min",
+          "legStops": 4
+        }
+      ],
+      "nstops": "~5 stops"
+    },
+    {
+      "mode": "bus",
+      "label": "Grand Central Express",
+      "fare": "From $15",
+      "time": "45–70 min",
+      "dashed": true,
+      "stops": [
+        {
+          "name": "LGA"
+        },
+        {
+          "name": "Grand Central",
+          "seg": "direct · 9am–5pm only"
+        }
+      ],
+      "nstops": "non-stop"
+    },
+    {
+      "mode": "taxi",
+      "label": "Yellow Cab (metered)",
+      "fare": "$55–80",
+      "time": "25–60 min",
+      "dashed": true,
+      "stops": [
+        {
+          "name": "LGA"
+        },
+        {
+          "name": "Midtown",
+          "seg": "meter + surcharges + tip",
+          "via": "Grand Central Pkwy"
+        }
+      ],
+      "nstops": "door-to-door"
+    },
+    {
+      "mode": "ride",
+      "label": "Uber / Lyft",
+      "fare": "$35–60",
+      "time": "25–65 min",
+      "dashed": true,
+      "stops": [
+        {
+          "name": "LGA"
+        },
+        {
+          "name": "Midtown",
+          "seg": "door-to-door · + tip"
+        }
+      ],
+      "nstops": "door-to-door"
+    }
+  ]
+}

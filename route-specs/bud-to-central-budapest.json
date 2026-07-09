@@ -1,0 +1,63 @@
+{
+  "route": "BUD → Central Budapest",
+  "note": "fares all-in, per person",
+  "lines": [
+    {
+      "mode": "bus",
+      "label": "100E Airport Express",
+      "fare": "2500 HUF",
+      "time": "35–50 min",
+      "dashed": true,
+      "stops": [
+        {
+          "name": "BUD"
+        },
+        {
+          "name": "Deák Ferenc tér",
+          "seg": "direct · ~40 min · 24/7",
+          "legStops": 3
+        }
+      ],
+      "nstops": "3 stops"
+    },
+    {
+      "mode": "bus",
+      "label": "200E Bus + Metro M3",
+      "fare": "850 HUF",
+      "time": "45–65 min",
+      "dashed": true,
+      "stops": [
+        {
+          "name": "BUD"
+        },
+        {
+          "name": "Kőbánya-Kispest",
+          "seg": "200E bus"
+        },
+        {
+          "name": "Central Budapest",
+          "seg": "Metro M3 inbound",
+          "legStops": 10
+        }
+      ],
+      "nstops": "~22 stops"
+    },
+    {
+      "mode": "ride",
+      "label": "Bolt / Uber licensed taxi",
+      "fare": "€28–€37",
+      "time": "25–40 min",
+      "dashed": true,
+      "stops": [
+        {
+          "name": "BUD"
+        },
+        {
+          "name": "City centre",
+          "seg": "fixed tariff · no surge"
+        }
+      ],
+      "nstops": "door-to-door"
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "route": "IST → Central Istanbul",
+  "note": "fares all-in, per person",
+  "lines": [
+    {
+      "mode": "rail",
+      "label": "M11 Metro + M2",
+      "fare": "38.49 TRY",
+      "time": "50–65 min",
+      "dashed": false,
+      "stops": [
+        {
+          "name": "IST"
+        },
+        {
+          "name": "Gayrettepe",
+          "seg": "M11 · ~31 min",
+          "legStops": 6
+        },
+        {
+          "name": "Taksim",
+          "seg": "M2 · 3 stops",
+          "legStops": 3
+        }
+      ],
+      "nstops": "~9 stops"
+    },
+    {
+      "mode": "bus",
+      "label": "Havaist Airport Bus",
+      "fare": "426 TRY",
+      "time": "80–100 min",
+      "dashed": true,
+      "stops": [
+        {
+          "name": "IST"
+        },
+        {
+          "name": "Taksim Meydanı",
+          "seg": "HVL-9 · runs 24/7"
+        }
+      ],
+      "nstops": "3–4 stops"
+    },
+    {
+      "mode": "taxi",
+      "label": "Yellow Metered Taxi",
+      "fare": "€32–47",
+      "time": "45–90 min",
+      "dashed": true,
+      "stops": [
+        {
+          "name": "IST"
+        },
+        {
+          "name": "Central Istanbul",
+          "seg": "metered · no night tariff"
+        }
+      ],
+      "nstops": "door-to-door"
+    },
+    {
+      "mode": "car",
+      "label": "Private Transfer",
+      "fare": "€35–55",
+      "time": "35–50 min",
+      "dashed": true,
+      "stops": [
+        {
+          "name": "IST"
+        },
+        {
+          "name": "Central Istanbul",
+          "seg": "fixed · direct to door"
+        }
+      ],
+      "nstops": "door-to-door"
+    }
+  ]
+}

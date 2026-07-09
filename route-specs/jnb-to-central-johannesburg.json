@@ -1,0 +1,64 @@
+{
+  "route": "JNB → Central Johannesburg",
+  "note": "fares all-in, per person",
+  "lines": [
+    {
+      "mode": "rail",
+      "label": "Gautrain",
+      "fare": "R228–240",
+      "time": "15–40 min",
+      "dashed": false,
+      "stops": [
+        {
+          "name": "JNB"
+        },
+        {
+          "name": "Sandton",
+          "seg": "Gautrain · ~15 min",
+          "legStops": 3
+        },
+        {
+          "name": "Park Station",
+          "seg": "change at Sandton",
+          "legStops": 2
+        }
+      ],
+      "nstops": "5 stops"
+    },
+    {
+      "mode": "ride",
+      "label": "Uber / Bolt",
+      "fare": "R200–350",
+      "time": "30–65 min",
+      "dashed": true,
+      "stops": [
+        {
+          "name": "JNB"
+        },
+        {
+          "name": "Central Johannesburg",
+          "seg": "door-to-door · 24/7",
+          "via": "N3"
+        }
+      ],
+      "nstops": "door-to-door"
+    },
+    {
+      "mode": "taxi",
+      "label": "ACSA Metered Taxi",
+      "fare": "R300–450",
+      "time": "35–70 min",
+      "dashed": true,
+      "stops": [
+        {
+          "name": "JNB"
+        },
+        {
+          "name": "Joburg CBD",
+          "seg": "meter runs · no fixed price"
+        }
+      ],
+      "nstops": "door-to-door"
+    }
+  ]
+}

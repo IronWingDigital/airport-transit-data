@@ -1,0 +1,64 @@
+{
+  "route": "PVG → Central Shanghai",
+  "note": "fares all-in, per person",
+  "lines": [
+    {
+      "mode": "rail",
+      "label": "Metro Line 2 direct",
+      "fare": "¥7–8",
+      "time": "60–75 min",
+      "dashed": false,
+      "stops": [
+        {
+          "name": "PVG"
+        },
+        {
+          "name": "People's Square",
+          "seg": "Line 2 west · 60–75 min",
+          "legStops": 18
+        }
+      ],
+      "nstops": "~18 stops"
+    },
+    {
+      "mode": "rail",
+      "label": "Maglev + Metro Line 2",
+      "fare": "¥54–56",
+      "time": "50–65 min",
+      "dashed": false,
+      "stops": [
+        {
+          "name": "PVG"
+        },
+        {
+          "name": "Longyang Road",
+          "seg": "Maglev · ~8 min"
+        },
+        {
+          "name": "People's Square",
+          "seg": "Line 2 · ~35 min",
+          "legStops": 7
+        }
+      ],
+      "nstops": "8 stops"
+    },
+    {
+      "mode": "taxi",
+      "label": "Official Taxi (metered)",
+      "fare": "¥185–250",
+      "time": "45–90 min",
+      "dashed": true,
+      "stops": [
+        {
+          "name": "PVG"
+        },
+        {
+          "name": "Central Shanghai",
+          "seg": "meter + tolls · 45–90 min",
+          "via": "S20 Expy"
+        }
+      ],
+      "nstops": "door-to-door"
+    }
+  ]
+}

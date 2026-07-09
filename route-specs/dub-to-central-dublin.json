@@ -1,0 +1,77 @@
+{
+  "route": "DUB → Central Dublin",
+  "note": "no rail link — bus, coach or taxi",
+  "lines": [
+    {
+      "mode": "bus",
+      "label": "Aircoach 700",
+      "fare": "€6–€10",
+      "time": "20–40 min",
+      "dashed": true,
+      "stops": [
+        {
+          "name": "DUB"
+        },
+        {
+          "name": "O'Connell Street",
+          "seg": "24/7 · every 10–15 min",
+          "legStops": 2,
+          "via": "M1 / M50"
+        }
+      ],
+      "nstops": "2 stops"
+    },
+    {
+      "mode": "bus",
+      "label": "Dublin Express 782",
+      "fare": "from €9",
+      "time": "20–35 min",
+      "dashed": true,
+      "stops": [
+        {
+          "name": "DUB"
+        },
+        {
+          "name": "Aston Quay/Temple Bar",
+          "seg": "2 city stops · 20–35 min",
+          "legStops": 2,
+          "via": "M1 / M50"
+        }
+      ],
+      "nstops": "2 stops"
+    },
+    {
+      "mode": "bus",
+      "label": "Dublin Bus 16/19/41",
+      "fare": "€2.00",
+      "time": "40–70 min",
+      "dashed": true,
+      "stops": [
+        {
+          "name": "DUB"
+        },
+        {
+          "name": "Lower Abbey Street",
+          "seg": "41 quickest · runs 24h"
+        }
+      ]
+    },
+    {
+      "mode": "taxi",
+      "label": "Taxi / Free Now",
+      "fare": "€30–€45",
+      "time": "20–50 min",
+      "dashed": true,
+      "stops": [
+        {
+          "name": "DUB"
+        },
+        {
+          "name": "City Centre",
+          "seg": "metered · no airport fee"
+        }
+      ],
+      "nstops": "door-to-door"
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "route": "LAX → Downtown Los Angeles",
+  "note": "fares all-in, per person",
+  "lines": [
+    {
+      "mode": "bus",
+      "label": "LAX FlyAway Bus",
+      "fare": "$9.75",
+      "time": "30–60 min",
+      "dashed": true,
+      "stops": [
+        {
+          "name": "LAX"
+        },
+        {
+          "name": "Union Station",
+          "seg": "non-stop · every 30 min",
+          "via": "I-105 / I-110"
+        }
+      ],
+      "nstops": "non-stop"
+    },
+    {
+      "mode": "rail",
+      "label": "Metro Rail (C or K Line)",
+      "fare": "$1.75",
+      "time": "60–90 min",
+      "dashed": false,
+      "stops": [
+        {
+          "name": "LAX"
+        },
+        {
+          "name": "Metro Transit Center",
+          "seg": "free shuttle"
+        },
+        {
+          "name": "Expo/Crenshaw",
+          "seg": "K Line north",
+          "legStops": 7
+        },
+        {
+          "name": "7th St/Metro Center",
+          "seg": "E Line eastbound",
+          "legStops": 7
+        }
+      ]
+    },
+    {
+      "mode": "ride",
+      "label": "Uber / Lyft",
+      "fare": "$30–55",
+      "time": "25–55 min",
+      "dashed": true,
+      "stops": [
+        {
+          "name": "LAX"
+        },
+        {
+          "name": "LAX-it Lot",
+          "seg": "free shuttle · 5–8 min"
+        },
+        {
+          "name": "Downtown LA",
+          "seg": "25–50 min off-peak",
+          "via": "I-110"
+        }
+      ],
+      "nstops": "door-to-door"
+    },
+    {
+      "mode": "taxi",
+      "label": "Yellow Cab flat rate",
+      "fare": "$46.50",
+      "time": "25–60 min",
+      "dashed": true,
+      "stops": [
+        {
+          "name": "LAX"
+        },
+        {
+          "name": "Downtown LA",
+          "seg": "flat $46.50 + tip · no surge",
+          "via": "I-110"
+        }
+      ],
+      "nstops": "door-to-door"
+    }
+  ]
+}

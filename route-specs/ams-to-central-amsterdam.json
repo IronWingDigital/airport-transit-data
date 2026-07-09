@@ -1,0 +1,58 @@
+{
+  "route": "AMS → Central Amsterdam",
+  "note": "fares all-in, per person",
+  "lines": [
+    {
+      "mode": "regional",
+      "label": "Intercity Train (OVpay)",
+      "fare": "€5.50",
+      "time": "15–20 min",
+      "dashed": false,
+      "stops": [
+        {
+          "name": "AMS"
+        },
+        {
+          "name": "Amsterdam Centraal",
+          "seg": "Intercity · 15–20 min"
+        }
+      ]
+    },
+    {
+      "mode": "bus",
+      "label": "Airport Express Bus 397",
+      "fare": "€6.50",
+      "time": "~30 min",
+      "dashed": true,
+      "stops": [
+        {
+          "name": "AMS"
+        },
+        {
+          "name": "Leidseplein",
+          "seg": "every ~10 min · ~30 min",
+          "legStops": 10
+        }
+      ],
+      "nstops": "~10 stops"
+    },
+    {
+      "mode": "taxi",
+      "label": "Official Schiphol Taxi",
+      "fare": "€45–€70",
+      "time": "25–50 min",
+      "dashed": true,
+      "stops": [
+        {
+          "name": "AMS"
+        },
+        {
+          "name": "Central Amsterdam",
+          "seg": "meter or fixed quote",
+          "via": "A4 / A10"
+        }
+      ],
+      "nstops": "door-to-door"
+    }
+  ]
+}

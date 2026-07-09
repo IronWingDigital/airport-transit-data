@@ -1,0 +1,82 @@
+{
+  "route": "YYZ → Downtown Toronto",
+  "note": "fares all-in, per person",
+  "lines": [
+    {
+      "mode": "regional",
+      "label": "UP Express",
+      "fare": "$9.25",
+      "time": "28 min",
+      "dashed": false,
+      "stops": [
+        {
+          "name": "YYZ"
+        },
+        {
+          "name": "Union Station",
+          "seg": "every 15 min · 28 min",
+          "legStops": 4
+        }
+      ],
+      "nstops": "4 stops"
+    },
+    {
+      "mode": "bus",
+      "label": "TTC 900 bus + subway",
+      "fare": "$3.30",
+      "time": "55–80 min",
+      "dashed": true,
+      "stops": [
+        {
+          "name": "YYZ"
+        },
+        {
+          "name": "Kipling Station",
+          "seg": "900 Express · 20–30 min",
+          "legStops": 2
+        },
+        {
+          "name": "Downtown Toronto",
+          "seg": "Line 2 subway east",
+          "legStops": 15
+        }
+      ],
+      "nstops": "~17 stops"
+    },
+    {
+      "mode": "ride",
+      "label": "Uber / Lyft",
+      "fare": "$40–65",
+      "time": "30–65 min",
+      "dashed": true,
+      "stops": [
+        {
+          "name": "YYZ"
+        },
+        {
+          "name": "Downtown Toronto",
+          "seg": "door-to-door · 30–65 min"
+        }
+      ],
+      "nstops": "door-to-door"
+    },
+    {
+      "mode": "taxi",
+      "label": "Taxi (flat rate)",
+      "fare": "$60–75",
+      "time": "30–65 min",
+      "dashed": true,
+      "stops": [
+        {
+          "name": "YYZ"
+        },
+        {
+          "name": "Downtown Toronto",
+          "seg": "flat rate by zone",
+          "via": "Gardiner Expy"
+        }
+      ],
+      "nstops": "door-to-door"
+    }
+  ]
+}

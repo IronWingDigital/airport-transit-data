@@ -1,0 +1,61 @@
+{
+  "route": "MUC → Central Munich",
+  "note": "fares all-in, per person",
+  "lines": [
+    {
+      "mode": "rail",
+      "label": "S-Bahn S1 / S8",
+      "fare": "€15.10",
+      "time": "40–45 min",
+      "dashed": false,
+      "stops": [
+        {
+          "name": "MUC"
+        },
+        {
+          "name": "Hauptbahnhof",
+          "seg": "direct · every 10 min",
+          "legStops": 15
+        }
+      ],
+      "nstops": "~15 stops"
+    },
+    {
+      "mode": "bus",
+      "label": "Lufthansa Express Bus",
+      "fare": "€12–€13",
+      "time": "40–55 min",
+      "dashed": true,
+      "stops": [
+        {
+          "name": "MUC"
+        },
+        {
+          "name": "Hauptbahnhof",
+          "seg": "via Schwabing (Nordfriedhof)",
+          "legStops": 2,
+          "via": "A9"
+        }
+      ],
+      "nstops": "2 stops"
+    },
+    {
+      "mode": "taxi",
+      "label": "Taxi (metered)",
+      "fare": "€90–€120",
+      "time": "35–55 min",
+      "dashed": true,
+      "stops": [
+        {
+          "name": "MUC"
+        },
+        {
+          "name": "Central Munich",
+          "seg": "€96 fixed to Hbf zone",
+          "via": "A9"
+        }
+      ],
+      "nstops": "door-to-door"
+    }
+  ]
+}

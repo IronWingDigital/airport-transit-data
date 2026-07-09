@@ -1,0 +1,59 @@
+{
+  "route": "ATL → Downtown Atlanta",
+  "note": "fares all-in, per person",
+  "lines": [
+    {
+      "mode": "rail",
+      "label": "MARTA Gold/Red Line",
+      "fare": "$2.50",
+      "time": "15–20 min",
+      "dashed": false,
+      "stops": [
+        {
+          "name": "ATL"
+        },
+        {
+          "name": "Five Points",
+          "seg": "7 stops · 15–20 min",
+          "legStops": 7
+        }
+      ],
+      "nstops": "7 stops"
+    },
+    {
+      "mode": "ride",
+      "label": "Uber / Lyft",
+      "fare": "$22–$55",
+      "time": "20–50 min",
+      "dashed": true,
+      "stops": [
+        {
+          "name": "ATL"
+        },
+        {
+          "name": "Downtown",
+          "seg": "door-to-door · surge varies",
+          "via": "I-85 / I-75"
+        }
+      ],
+      "nstops": "door-to-door"
+    },
+    {
+      "mode": "taxi",
+      "label": "Taxi (city flat rate)",
+      "fare": "$36 flat",
+      "time": "25–55 min",
+      "dashed": true,
+      "stops": [
+        {
+          "name": "ATL"
+        },
+        {
+          "name": "Downtown",
+          "seg": "flat $36 + $1.50 fee"
+        }
+      ],
+      "nstops": "door-to-door"
+    }
+  ]
+}

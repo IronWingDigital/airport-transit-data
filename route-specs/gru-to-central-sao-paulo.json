@@ -1,0 +1,66 @@
+{
+  "route": "GRU → Central São Paulo",
+  "note": "fares all-in, per person",
+  "lines": [
+    {
+      "mode": "rail",
+      "label": "CPTM Line 13 + Metro",
+      "fare": "R$5.40",
+      "time": "70–90 min",
+      "dashed": false,
+      "stops": [
+        {
+          "name": "GRU"
+        },
+        {
+          "name": "Aeroporto-Guarulhos",
+          "seg": "free shuttle · ~10 min"
+        },
+        {
+          "name": "Brás",
+          "seg": "Line 13 + 12 · ~35 min",
+          "legStops": 4
+        },
+        {
+          "name": "Paulista Avenue",
+          "seg": "Metro Line 3 + 4",
+          "legStops": 6
+        }
+      ],
+      "nstops": "11 stops"
+    },
+    {
+      "mode": "bus",
+      "label": "Airport Bus Service",
+      "fare": "R$48.50",
+      "time": "70–100 min",
+      "dashed": true,
+      "stops": [
+        {
+          "name": "GRU"
+        },
+        {
+          "name": "Paulista Avenue",
+          "seg": "EMTU coach · hourly"
+        }
+      ]
+    },
+    {
+      "mode": "ride",
+      "label": "Uber / 99",
+      "fare": "R$80–160",
+      "time": "40–90 min",
+      "dashed": true,
+      "stops": [
+        {
+          "name": "GRU"
+        },
+        {
+          "name": "Central São Paulo",
+          "seg": "traffic-dependent"
+        }
+      ],
+      "nstops": "door-to-door"
+    }
+  ]
+}

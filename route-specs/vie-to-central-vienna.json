@@ -1,0 +1,74 @@
+{
+  "route": "VIE → Central Vienna",
+  "note": "fares all-in, per person",
+  "lines": [
+    {
+      "mode": "rail",
+      "label": "S7 S-Bahn",
+      "fare": "€5.40",
+      "time": "~25 min",
+      "dashed": false,
+      "stops": [
+        {
+          "name": "VIE"
+        },
+        {
+          "name": "Wien Mitte",
+          "seg": "S7 · every 30 min"
+        }
+      ]
+    },
+    {
+      "mode": "regional",
+      "label": "ÖBB Railjet",
+      "fare": "€5.40",
+      "time": "15 min",
+      "dashed": false,
+      "stops": [
+        {
+          "name": "VIE"
+        },
+        {
+          "name": "Wien Hauptbahnhof",
+          "seg": "non-stop · 15 min"
+        }
+      ],
+      "nstops": "non-stop"
+    },
+    {
+      "mode": "regional",
+      "label": "CAT City Airport Train",
+      "fare": "€14.90",
+      "time": "16 min",
+      "dashed": false,
+      "stops": [
+        {
+          "name": "VIE"
+        },
+        {
+          "name": "Wien Mitte",
+          "seg": "non-stop · every 30 min"
+        }
+      ],
+      "nstops": "non-stop"
+    },
+    {
+      "mode": "taxi",
+      "label": "Licensed Airport Taxi",
+      "fare": "€36–45",
+      "time": "20–35 min",
+      "dashed": true,
+      "stops": [
+        {
+          "name": "VIE"
+        },
+        {
+          "name": "Central Vienna",
+          "seg": "on the meter · 20–30 min",
+          "via": "A4"
+        }
+      ],
+      "nstops": "door-to-door"
+    }
+  ]
+}

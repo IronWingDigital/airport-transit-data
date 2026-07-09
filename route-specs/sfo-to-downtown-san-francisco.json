@@ -1,0 +1,59 @@
+{
+  "route": "SFO → Downtown San Francisco",
+  "note": "fares all-in, per person",
+  "lines": [
+    {
+      "mode": "rail",
+      "label": "BART",
+      "fare": "$11.80",
+      "time": "30–35 min",
+      "dashed": false,
+      "stops": [
+        {
+          "name": "SFO"
+        },
+        {
+          "name": "Powell St / Montgomery",
+          "seg": "BART · 30–35 min",
+          "legStops": 10
+        }
+      ],
+      "nstops": "10 stops"
+    },
+    {
+      "mode": "bus",
+      "label": "SamTrans Route 292",
+      "fare": "$2.25",
+      "time": "55–90 min",
+      "dashed": true,
+      "stops": [
+        {
+          "name": "SFO"
+        },
+        {
+          "name": "Mission St downtown",
+          "seg": "city bus · 55–90 min",
+          "via": "Mission St"
+        }
+      ]
+    },
+    {
+      "mode": "ride",
+      "label": "Lyft / Uber",
+      "fare": "$30–80",
+      "time": "25–55 min",
+      "dashed": true,
+      "stops": [
+        {
+          "name": "SFO"
+        },
+        {
+          "name": "Downtown SF",
+          "seg": "Level 5 garage pickup",
+          "via": "US-101"
+        }
+      ],
+      "nstops": "door-to-door"
+    }
+  ]
+}

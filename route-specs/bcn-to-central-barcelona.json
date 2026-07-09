@@ -1,0 +1,60 @@
+{
+  "route": "BCN → Central Barcelona",
+  "note": "fares all-in, per person",
+  "lines": [
+    {
+      "mode": "bus",
+      "label": "Aerobus A1 / A2",
+      "fare": "€7.75",
+      "time": "35–45 min",
+      "dashed": true,
+      "stops": [
+        {
+          "name": "BCN"
+        },
+        {
+          "name": "Plaça Catalunya",
+          "seg": "24/7 · every 5–10 min",
+          "legStops": 4
+        }
+      ],
+      "nstops": "4 stops"
+    },
+    {
+      "mode": "regional",
+      "label": "RENFE R2 Nord (from T2)",
+      "fare": "€4.90",
+      "time": "19–26 min",
+      "dashed": false,
+      "stops": [
+        {
+          "name": "BCN T2"
+        },
+        {
+          "name": "Passeig de Gràcia",
+          "seg": "every 30 min · 19–26 min",
+          "legStops": 4
+        }
+      ],
+      "nstops": "~4 stops"
+    },
+    {
+      "mode": "taxi",
+      "label": "Official taxi (metered)",
+      "fare": "€35–45",
+      "time": "25–40 min",
+      "dashed": true,
+      "stops": [
+        {
+          "name": "BCN"
+        },
+        {
+          "name": "Central Barcelona",
+          "seg": "metered · incl. supplement",
+          "via": "C-31 / Ronda Litoral"
+        }
+      ],
+      "nstops": "door-to-door"
+    }
+  ]
+}

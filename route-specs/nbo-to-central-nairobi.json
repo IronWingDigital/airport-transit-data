@@ -1,0 +1,81 @@
+{
+  "route": "NBO → Central Nairobi",
+  "note": "fares approx. USD, per person",
+  "lines": [
+    {
+      "mode": "rail",
+      "label": "Kenya Railways bus+train",
+      "fare": "~$1.15",
+      "time": "60–90 min",
+      "dashed": false,
+      "stops": [
+        {
+          "name": "NBO"
+        },
+        {
+          "name": "Embakasi Village",
+          "seg": "NCR bus · 15 min · KES 50"
+        },
+        {
+          "name": "Nairobi Central",
+          "seg": "DMU train · 20–25 min",
+          "legStops": 4
+        }
+      ],
+      "nstops": "4 rail stops"
+    },
+    {
+      "mode": "bus",
+      "label": "Route 34 (Citi Hoppa)",
+      "fare": "~$0.80",
+      "time": "60–100 min",
+      "dashed": true,
+      "stops": [
+        {
+          "name": "NBO"
+        },
+        {
+          "name": "Kencom, CBD",
+          "seg": "every 20–30 min · KES 100",
+          "via": "Mombasa Rd"
+        }
+      ]
+    },
+    {
+      "mode": "ride",
+      "label": "Uber / Bolt (Expressway)",
+      "fare": "~$10–15",
+      "time": "20–35 min",
+      "dashed": true,
+      "stops": [
+        {
+          "name": "NBO"
+        },
+        {
+          "name": "Nairobi CBD",
+          "seg": "via Expressway + toll",
+          "via": "Nairobi Expy"
+        }
+      ],
+      "nstops": "door-to-door"
+    },
+    {
+      "mode": "taxi",
+      "label": "KAA fixed-rate taxi",
+      "fare": "~$15–27",
+      "time": "25–120 min",
+      "dashed": true,
+      "stops": [
+        {
+          "name": "NBO"
+        },
+        {
+          "name": "Nairobi CBD",
+          "seg": "posted fixed rate · cash",
+          "via": "Nairobi Expy"
+        }
+      ],
+      "nstops": "door-to-door"
+    }
+  ]
+}

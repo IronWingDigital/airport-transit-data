@@ -1,0 +1,64 @@
+{
+  "route": "LIS → Central Lisbon",
+  "note": "fares all-in, per person",
+  "lines": [
+    {
+      "mode": "rail",
+      "label": "Metro Red + Green Line",
+      "fare": "€1.90",
+      "time": "30–45 min",
+      "dashed": false,
+      "stops": [
+        {
+          "name": "LIS"
+        },
+        {
+          "name": "Alameda",
+          "seg": "Red Line · ~16 min",
+          "legStops": 9
+        },
+        {
+          "name": "Baixa-Chiado",
+          "seg": "Green Line · ~9 min",
+          "legStops": 6
+        }
+      ],
+      "nstops": "15 stops"
+    },
+    {
+      "mode": "ride",
+      "label": "Uber / Bolt / FREE NOW",
+      "fare": "€12–€22",
+      "time": "15–30 min",
+      "dashed": true,
+      "stops": [
+        {
+          "name": "LIS"
+        },
+        {
+          "name": "Central Lisbon",
+          "seg": "P2 pickup · door-to-door",
+          "via": "2ª Circular / A1"
+        }
+      ],
+      "nstops": "door-to-door"
+    },
+    {
+      "mode": "car",
+      "label": "Private transfer",
+      "fare": "€30–€55",
+      "time": "20–35 min",
+      "dashed": true,
+      "stops": [
+        {
+          "name": "LIS"
+        },
+        {
+          "name": "Central Lisbon",
+          "seg": "fixed price · 20–35 min"
+        }
+      ],
+      "nstops": "door-to-door"
+    }
+  ]
+}

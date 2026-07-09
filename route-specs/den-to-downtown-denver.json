@@ -1,0 +1,60 @@
+{
+  "route": "DEN → Downtown Denver",
+  "note": "per person · $10 rail = day pass",
+  "lines": [
+    {
+      "mode": "rail",
+      "label": "RTD A Line",
+      "fare": "$10",
+      "time": "37 min",
+      "dashed": false,
+      "stops": [
+        {
+          "name": "DEN"
+        },
+        {
+          "name": "Union Station",
+          "seg": "A Line · every 15 min",
+          "legStops": 7
+        }
+      ],
+      "nstops": "7 stops"
+    },
+    {
+      "mode": "ride",
+      "label": "Uber / Lyft",
+      "fare": "$35–55",
+      "time": "30–55 min",
+      "dashed": true,
+      "stops": [
+        {
+          "name": "DEN"
+        },
+        {
+          "name": "Downtown Denver",
+          "seg": "Peña Blvd · I-70 W",
+          "via": "Peña Blvd → I-70 W"
+        }
+      ],
+      "nstops": "door-to-door"
+    },
+    {
+      "mode": "taxi",
+      "label": "Yellow / Metro Taxi",
+      "fare": "$66–80",
+      "time": "35–55 min",
+      "dashed": true,
+      "stops": [
+        {
+          "name": "DEN"
+        },
+        {
+          "name": "Downtown Denver",
+          "seg": "$66 zone + $4.57 fee",
+          "via": "I-70 / Peña Blvd"
+        }
+      ],
+      "nstops": "door-to-door"
+    }
+  ]
+}

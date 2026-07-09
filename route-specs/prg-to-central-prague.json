@@ -1,0 +1,63 @@
+{
+  "route": "PRG → Central Prague",
+  "note": "fares all-in, per person",
+  "lines": [
+    {
+      "mode": "bus",
+      "label": "Trolleybus 59 + Metro A",
+      "fare": "50 CZK",
+      "time": "45–60 min",
+      "dashed": true,
+      "stops": [
+        {
+          "name": "PRG"
+        },
+        {
+          "name": "Nádraží Veleslavín",
+          "seg": "Trolleybus 59 · 15–17 min"
+        },
+        {
+          "name": "Wenceslas Square",
+          "seg": "Metro A · 7 stops",
+          "legStops": 7
+        }
+      ],
+      "nstops": "7 metro stops"
+    },
+    {
+      "mode": "bus",
+      "label": "Airport Express (AE) bus",
+      "fare": "200 CZK",
+      "time": "35–45 min",
+      "dashed": true,
+      "stops": [
+        {
+          "name": "PRG"
+        },
+        {
+          "name": "Hlavní nádraží",
+          "seg": "direct coach · 35–45 min",
+          "legStops": 2
+        }
+      ],
+      "nstops": "2 stops"
+    },
+    {
+      "mode": "ride",
+      "label": "Bolt / Uber",
+      "fare": "~€16–24",
+      "time": "25–40 min",
+      "dashed": true,
+      "stops": [
+        {
+          "name": "PRG"
+        },
+        {
+          "name": "Central Prague",
+          "seg": "fixed app fare · 400–600 CZK"
+        }
+      ],
+      "nstops": "door-to-door"
+    }
+  ]
+}

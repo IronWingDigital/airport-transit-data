@@ -1,0 +1,80 @@
+{
+  "route": "MEX → Central Mexico City",
+  "note": "fares approx. USD, per person",
+  "lines": [
+    {
+      "mode": "rail",
+      "label": "Metro Line 5 + Line 1",
+      "fare": "~$0.30",
+      "time": "35–55 min",
+      "dashed": false,
+      "stops": [
+        {
+          "name": "MEX"
+        },
+        {
+          "name": "Pantitlán",
+          "seg": "Line 5 · 2 stops",
+          "legStops": 2
+        },
+        {
+          "name": "Pino Suárez",
+          "seg": "Line 1 · westbound",
+          "legStops": 9
+        }
+      ],
+      "nstops": "~11 stops"
+    },
+    {
+      "mode": "bus",
+      "label": "Metrobús Line 4",
+      "fare": "~$1.60",
+      "time": "45–70 min",
+      "dashed": true,
+      "stops": [
+        {
+          "name": "MEX"
+        },
+        {
+          "name": "Centro Histórico",
+          "seg": "every 7–10 min · MXN 30"
+        }
+      ],
+      "nstops": "~10 stops"
+    },
+    {
+      "mode": "ride",
+      "label": "Uber / DiDi",
+      "fare": "$10–19",
+      "time": "20–50 min",
+      "dashed": true,
+      "stops": [
+        {
+          "name": "MEX"
+        },
+        {
+          "name": "Central CDMX",
+          "seg": "app zone · MXN 180–350"
+        }
+      ],
+      "nstops": "door-to-door"
+    },
+    {
+      "mode": "taxi",
+      "label": "Authorized taxi",
+      "fare": "$13–25",
+      "time": "25–50 min",
+      "dashed": true,
+      "stops": [
+        {
+          "name": "MEX"
+        },
+        {
+          "name": "Centro Histórico",
+          "seg": "prepaid booth · MXN 250–450"
+        }
+      ],
+      "nstops": "door-to-door"
+    }
+  ]
+}

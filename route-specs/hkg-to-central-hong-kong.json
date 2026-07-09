@@ -1,0 +1,60 @@
+{
+  "route": "HKG → Central Hong Kong",
+  "note": "fares all-in, per person",
+  "lines": [
+    {
+      "mode": "rail",
+      "label": "Airport Express (MTR)",
+      "fare": "HKD 120",
+      "time": "~45 min",
+      "dashed": false,
+      "stops": [
+        {
+          "name": "HKG"
+        },
+        {
+          "name": "Hong Kong (Central)",
+          "seg": "Airport Express · 24 min",
+          "legStops": 3
+        }
+      ],
+      "nstops": "3 stops"
+    },
+    {
+      "mode": "bus",
+      "label": "City Bus A11",
+      "fare": "HKD 41.9",
+      "time": "50–70 min",
+      "dashed": true,
+      "stops": [
+        {
+          "name": "HKG"
+        },
+        {
+          "name": "Central",
+          "seg": "A11 · every 20–30 min",
+          "via": "Lantau Link → W Harbour Crossing"
+        }
+      ],
+      "nstops": "~6 stops"
+    },
+    {
+      "mode": "taxi",
+      "label": "Red Taxi",
+      "fare": "HKD 350+",
+      "time": "40–65 min",
+      "dashed": true,
+      "stops": [
+        {
+          "name": "HKG"
+        },
+        {
+          "name": "Central",
+          "seg": "meter + HKD 50 tolls",
+          "via": "N Lantau Hwy → W Harbour Crossing"
+        }
+      ],
+      "nstops": "door-to-door"
+    }
+  ]
+}

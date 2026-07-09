@@ -1,0 +1,59 @@
+{
+  "route": "CPH → Central Copenhagen",
+  "note": "per person · 30 DKK ≈ €4",
+  "lines": [
+    {
+      "mode": "rail",
+      "label": "Metro M2",
+      "fare": "30 DKK",
+      "time": "14–15 min",
+      "dashed": false,
+      "stops": [
+        {
+          "name": "CPH"
+        },
+        {
+          "name": "Kongens Nytorv",
+          "seg": "M2 · ~14 min · 24/7",
+          "legStops": 8
+        }
+      ],
+      "nstops": "8 stops"
+    },
+    {
+      "mode": "regional",
+      "label": "DSB / Øresund Train",
+      "fare": "30 DKK",
+      "time": "13–15 min",
+      "dashed": false,
+      "stops": [
+        {
+          "name": "CPH"
+        },
+        {
+          "name": "København H",
+          "seg": "DSB · every ~10 min",
+          "legStops": 3
+        }
+      ],
+      "nstops": "~3 stops"
+    },
+    {
+      "mode": "taxi",
+      "label": "Taxi / Uber / Bolt",
+      "fare": "€34–47",
+      "time": "20–30 min",
+      "dashed": true,
+      "stops": [
+        {
+          "name": "CPH"
+        },
+        {
+          "name": "City Center",
+          "seg": "250–350 DKK metered"
+        }
+      ],
+      "nstops": "door-to-door"
+    }
+  ]
+}

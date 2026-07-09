@@ -1,0 +1,60 @@
+{
+  "route": "TPE → Central Taipei",
+  "note": "fares all-in, per person",
+  "lines": [
+    {
+      "mode": "rail",
+      "label": "Airport MRT Express",
+      "fare": "NT$160",
+      "time": "35–39 min",
+      "dashed": false,
+      "stops": [
+        {
+          "name": "TPE"
+        },
+        {
+          "name": "Taipei Main Station",
+          "seg": "Express · 35–39 min",
+          "legStops": 3
+        }
+      ],
+      "nstops": "3 stops"
+    },
+    {
+      "mode": "bus",
+      "label": "Kuo-Kuang 1819 bus",
+      "fare": "NT$135",
+      "time": "60–80 min",
+      "dashed": true,
+      "stops": [
+        {
+          "name": "TPE"
+        },
+        {
+          "name": "Taipei Bus Station",
+          "seg": "runs 24h · every 15–20 min",
+          "legStops": 6
+        }
+      ],
+      "nstops": "6 stops"
+    },
+    {
+      "mode": "taxi",
+      "label": "Official Metered Taxi",
+      "fare": "~$40–50",
+      "time": "45–70 min",
+      "dashed": true,
+      "stops": [
+        {
+          "name": "TPE"
+        },
+        {
+          "name": "Central Taipei",
+          "seg": "meter + tolls · NT$1,200+",
+          "via": "Fwy 1 & 2"
+        }
+      ],
+      "nstops": "door-to-door"
+    }
+  ]
+}

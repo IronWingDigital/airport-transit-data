@@ -1,0 +1,74 @@
+{
+  "route": "DEL → Central Delhi",
+  "note": "fares approx · cars per vehicle",
+  "lines": [
+    {
+      "mode": "rail",
+      "label": "Airport Express Metro",
+      "fare": "₹64",
+      "time": "35–50 min",
+      "dashed": false,
+      "stops": [
+        {
+          "name": "DEL T3"
+        },
+        {
+          "name": "New Delhi",
+          "seg": "Orange Line · 15–16 min",
+          "legStops": 4
+        }
+      ],
+      "nstops": "4 stops"
+    },
+    {
+      "mode": "ride",
+      "label": "Uber / Ola (off-peak)",
+      "fare": "₹400–600",
+      "time": "30–50 min",
+      "dashed": true,
+      "stops": [
+        {
+          "name": "DEL T3"
+        },
+        {
+          "name": "Connaught Place",
+          "seg": "incl ₹150–170 airport fees"
+        }
+      ],
+      "nstops": "door-to-door"
+    },
+    {
+      "mode": "taxi",
+      "label": "Police Prepaid Taxi",
+      "fare": "₹470–650",
+      "time": "35–60 min",
+      "dashed": true,
+      "stops": [
+        {
+          "name": "DEL"
+        },
+        {
+          "name": "Connaught Place",
+          "seg": "fixed slip · +25% night"
+        }
+      ],
+      "nstops": "door-to-door"
+    },
+    {
+      "mode": "bus",
+      "label": "DTC Bus",
+      "fare": "₹25–100",
+      "time": "60–90 min",
+      "dashed": true,
+      "stops": [
+        {
+          "name": "DEL T3"
+        },
+        {
+          "name": "New Delhi Rly Stn",
+          "seg": "Airport Express-4 bus"
+        }
+      ]
+    }
+  ]
+}

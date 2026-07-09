@@ -1,0 +1,82 @@
+{
+  "route": "ORD → Downtown Chicago",
+  "note": "fares all-in, per person",
+  "lines": [
+    {
+      "mode": "rail",
+      "label": "CTA Blue Line",
+      "fare": "$5.00",
+      "time": "40–45 min",
+      "dashed": false,
+      "stops": [
+        {
+          "name": "ORD"
+        },
+        {
+          "name": "Clark/Lake (Loop)",
+          "seg": "direct · runs 24/7",
+          "legStops": 16
+        }
+      ],
+      "nstops": "16 stops"
+    },
+    {
+      "mode": "regional",
+      "label": "Metra North Central",
+      "fare": "$3.75",
+      "time": "~40 min",
+      "dashed": false,
+      "stops": [
+        {
+          "name": "ORD"
+        },
+        {
+          "name": "O'Hare Transfer",
+          "seg": "free ATS train"
+        },
+        {
+          "name": "Union Station",
+          "seg": "weekdays · ~6 trains/day",
+          "legStops": 6
+        }
+      ],
+      "nstops": "6 rail stops"
+    },
+    {
+      "mode": "ride",
+      "label": "Uber / Lyft",
+      "fare": "$40–$65",
+      "time": "30–55 min",
+      "dashed": true,
+      "stops": [
+        {
+          "name": "ORD"
+        },
+        {
+          "name": "Downtown Chicago",
+          "seg": "pickup at T2 departures",
+          "via": "Kennedy Expy"
+        }
+      ],
+      "nstops": "door-to-door"
+    },
+    {
+      "mode": "taxi",
+      "label": "Taxi (metered)",
+      "fare": "$70–$90",
+      "time": "30–60 min",
+      "dashed": true,
+      "stops": [
+        {
+          "name": "ORD"
+        },
+        {
+          "name": "Downtown Chicago",
+          "seg": "metered + $4 airport tax",
+          "via": "Kennedy Expy"
+        }
+      ],
+      "nstops": "door-to-door"
+    }
+  ]
+}

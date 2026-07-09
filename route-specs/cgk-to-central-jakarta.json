@@ -1,0 +1,63 @@
+{
+  "route": "CGK → Central Jakarta",
+  "note": "fares approx., in USD",
+  "lines": [
+    {
+      "mode": "rail",
+      "label": "Commuter Line Basoetta",
+      "fare": "~$4",
+      "time": "46–56 min",
+      "dashed": false,
+      "stops": [
+        {
+          "name": "CGK"
+        },
+        {
+          "name": "Airport Train Station",
+          "seg": "free Skytrain · ~7 min"
+        },
+        {
+          "name": "BNI City / Manggarai",
+          "seg": "Basoetta · 46–56 min",
+          "legStops": 5
+        }
+      ],
+      "nstops": "5 rail stops"
+    },
+    {
+      "mode": "ride",
+      "label": "Grab / Gojek",
+      "fare": "~$8.50–13",
+      "time": "45–120 min",
+      "dashed": true,
+      "stops": [
+        {
+          "name": "CGK"
+        },
+        {
+          "name": "Sudirman / Thamrin",
+          "seg": "5–10 min walk to pickup",
+          "via": "Sedyatmo Toll Rd"
+        }
+      ],
+      "nstops": "door-to-door"
+    },
+    {
+      "mode": "taxi",
+      "label": "Blue Bird taxi",
+      "fare": "~$11–17",
+      "time": "60–120 min",
+      "dashed": true,
+      "stops": [
+        {
+          "name": "CGK"
+        },
+        {
+          "name": "Central Jakarta",
+          "seg": "meter + tolls + surcharge"
+        }
+      ],
+      "nstops": "door-to-door"
+    }
+  ]
+}

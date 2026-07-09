@@ -1,0 +1,58 @@
+{
+  "route": "FRA → Central Frankfurt",
+  "note": "per person · taxi per car",
+  "lines": [
+    {
+      "mode": "rail",
+      "label": "S-Bahn S8 / S9",
+      "fare": "€6.90",
+      "time": "11 min",
+      "dashed": false,
+      "stops": [
+        {
+          "name": "FRA"
+        },
+        {
+          "name": "Hauptbahnhof",
+          "seg": "S8/S9 · every 15 min",
+          "legStops": 4
+        }
+      ],
+      "nstops": "4 stops"
+    },
+    {
+      "mode": "regional",
+      "label": "ICE / Regional Express",
+      "fare": "€6.90+",
+      "time": "9–15 min",
+      "dashed": false,
+      "stops": [
+        {
+          "name": "FRA"
+        },
+        {
+          "name": "Hauptbahnhof",
+          "seg": "RE €6.90 · ICE from €8"
+        }
+      ],
+      "nstops": "non-stop"
+    },
+    {
+      "mode": "taxi",
+      "label": "Taxi (metered)",
+      "fare": "€35–€50",
+      "time": "20–35 min",
+      "dashed": true,
+      "stops": [
+        {
+          "name": "FRA"
+        },
+        {
+          "name": "Central Frankfurt",
+          "seg": "€4 base + €2.40/km"
+        }
+      ],
+      "nstops": "door-to-door"
+    }
+  ]
+}

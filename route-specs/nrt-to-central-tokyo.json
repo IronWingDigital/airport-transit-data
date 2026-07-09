@@ -1,0 +1,74 @@
+{
+  "route": "NRT → Central Tokyo",
+  "note": "fares all-in, per person",
+  "lines": [
+    {
+      "mode": "rail",
+      "label": "Keisei Skyliner",
+      "fare": "¥2,580",
+      "time": "36–41 min",
+      "dashed": false,
+      "stops": [
+        {
+          "name": "NRT"
+        },
+        {
+          "name": "Nippori / Ueno",
+          "seg": "non-stop · 36–41 min"
+        }
+      ],
+      "nstops": "non-stop"
+    },
+    {
+      "mode": "regional",
+      "label": "N'EX (Narita Express)",
+      "fare": "¥3,140+",
+      "time": "60–85 min",
+      "dashed": false,
+      "stops": [
+        {
+          "name": "NRT"
+        },
+        {
+          "name": "Tokyo Sta / Shinjuku",
+          "seg": "direct · no transfers"
+        }
+      ],
+      "nstops": "~2 stops"
+    },
+    {
+      "mode": "bus",
+      "label": "AIRPORT BUS TYO-NRT",
+      "fare": "¥1,500",
+      "time": "65–100 min",
+      "dashed": true,
+      "stops": [
+        {
+          "name": "NRT"
+        },
+        {
+          "name": "Tokyo Station",
+          "seg": "every 10–20 min"
+        }
+      ],
+      "nstops": "non-stop"
+    },
+    {
+      "mode": "taxi",
+      "label": "Taxi (fixed-fare)",
+      "fare": "¥20k–30k",
+      "time": "60–90 min",
+      "dashed": true,
+      "stops": [
+        {
+          "name": "NRT"
+        },
+        {
+          "name": "Central Tokyo",
+          "seg": "~¥23,000 flat + tolls"
+        }
+      ],
+      "nstops": "door-to-door"
+    }
+  ]
+}

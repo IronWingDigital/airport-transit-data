@@ -1,0 +1,64 @@
+{
+  "route": "DXB → Downtown Dubai",
+  "note": "fares approx · cars per vehicle",
+  "lines": [
+    {
+      "mode": "rail",
+      "label": "Metro Red Line",
+      "fare": "AED 5–6",
+      "time": "25–30 + walk",
+      "dashed": false,
+      "stops": [
+        {
+          "name": "DXB"
+        },
+        {
+          "name": "Burj Khalifa/Mall stn",
+          "seg": "Red Line · 25–30 min",
+          "legStops": 12
+        },
+        {
+          "name": "Dubai Mall",
+          "seg": "footbridge · 10–15 min"
+        }
+      ],
+      "nstops": "12 stops"
+    },
+    {
+      "mode": "ride",
+      "label": "Uber / Careem",
+      "fare": "AED 45–70",
+      "time": "20–25 min",
+      "dashed": true,
+      "stops": [
+        {
+          "name": "DXB"
+        },
+        {
+          "name": "Downtown Dubai",
+          "seg": "off-peak · surge to 110",
+          "via": "Sheikh Zayed Rd"
+        }
+      ],
+      "nstops": "door-to-door"
+    },
+    {
+      "mode": "taxi",
+      "label": "Metered RTA Taxi",
+      "fare": "AED 55–80",
+      "time": "25–45 min",
+      "dashed": true,
+      "stops": [
+        {
+          "name": "DXB"
+        },
+        {
+          "name": "Downtown Dubai",
+          "seg": "AED 25 flag + 2.19/km",
+          "via": "Sheikh Zayed Rd"
+        }
+      ],
+      "nstops": "door-to-door"
+    }
+  ]
+}

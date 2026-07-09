@@ -1,0 +1,74 @@
+{
+  "route": "ZRH → Central Zurich",
+  "note": "fares all-in, per person",
+  "lines": [
+    {
+      "mode": "rail",
+      "label": "S-Bahn / IR Train",
+      "fare": "CHF 7.20",
+      "time": "10–13 min",
+      "dashed": false,
+      "stops": [
+        {
+          "name": "ZRH"
+        },
+        {
+          "name": "Zürich HB",
+          "seg": "up to 13 trains per hour"
+        }
+      ]
+    },
+    {
+      "mode": "rail",
+      "label": "Tram Line 10",
+      "fare": "CHF 7.20",
+      "time": "35–45 min",
+      "dashed": false,
+      "stops": [
+        {
+          "name": "ZRH"
+        },
+        {
+          "name": "Bahnhofplatz/HB",
+          "seg": "every 15 min · via Oerlikon",
+          "legStops": 25
+        }
+      ],
+      "nstops": "~25 stops"
+    },
+    {
+      "mode": "taxi",
+      "label": "Metered Taxi",
+      "fare": "CHF 60–70",
+      "time": "20–40 min",
+      "dashed": true,
+      "stops": [
+        {
+          "name": "ZRH"
+        },
+        {
+          "name": "Central Zurich",
+          "seg": "metered · rank at Arrivals"
+        }
+      ],
+      "nstops": "door-to-door"
+    },
+    {
+      "mode": "ride",
+      "label": "Uber",
+      "fare": "CHF 40–60",
+      "time": "20–40 min",
+      "dashed": true,
+      "stops": [
+        {
+          "name": "ZRH"
+        },
+        {
+          "name": "Central Zurich",
+          "seg": "pickup at Check-in 1/2"
+        }
+      ],
+      "nstops": "door-to-door"
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "route": "MIA → Downtown Miami",
+  "note": "fares all-in, per person",
+  "lines": [
+    {
+      "mode": "rail",
+      "label": "MIA Mover + Metrorail",
+      "fare": "$2.25",
+      "time": "35–45 min",
+      "dashed": false,
+      "stops": [
+        {
+          "name": "MIA"
+        },
+        {
+          "name": "Airport Metrorail Stn",
+          "seg": "MIA Mover · free · 3–5 min"
+        },
+        {
+          "name": "Government Center",
+          "seg": "Orange Line · 15–20 min",
+          "legStops": 7
+        }
+      ],
+      "nstops": "7 rail stops"
+    },
+    {
+      "mode": "ride",
+      "label": "Uber / Lyft",
+      "fare": "$25–$55",
+      "time": "20–40 min",
+      "dashed": true,
+      "stops": [
+        {
+          "name": "MIA"
+        },
+        {
+          "name": "Downtown Miami",
+          "seg": "curbside pickup at terminal",
+          "via": "I-836"
+        }
+      ],
+      "nstops": "door-to-door"
+    },
+    {
+      "mode": "car",
+      "label": "Private transfer",
+      "fare": "$55–$80",
+      "time": "25–40 min",
+      "dashed": true,
+      "stops": [
+        {
+          "name": "MIA"
+        },
+        {
+          "name": "Downtown Miami",
+          "seg": "flat rate · name sign"
+        }
+      ],
+      "nstops": "door-to-door"
+    }
+  ]
+}

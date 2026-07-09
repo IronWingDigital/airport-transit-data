@@ -1,0 +1,58 @@
+{
+  "route": "DOH → Central Doha",
+  "note": "fares approx · cars per vehicle",
+  "lines": [
+    {
+      "mode": "rail",
+      "label": "Metro Red Line",
+      "fare": "QAR 2",
+      "time": "16–25 min",
+      "dashed": false,
+      "stops": [
+        {
+          "name": "DOH"
+        },
+        {
+          "name": "Msheireb",
+          "seg": "Red Line · ~16 min",
+          "legStops": 5
+        }
+      ],
+      "nstops": "5 stops"
+    },
+    {
+      "mode": "ride",
+      "label": "Uber / Ride-Hailing",
+      "fare": "QAR 45–80",
+      "time": "15–35 min",
+      "dashed": true,
+      "stops": [
+        {
+          "name": "DOH"
+        },
+        {
+          "name": "Central Doha",
+          "seg": "pickup in car park"
+        }
+      ],
+      "nstops": "door-to-door"
+    },
+    {
+      "mode": "taxi",
+      "label": "Karwa Taxi",
+      "fare": "QAR 40–75",
+      "time": "18–38 min",
+      "dashed": true,
+      "stops": [
+        {
+          "name": "DOH"
+        },
+        {
+          "name": "Central Doha",
+          "seg": "QAR 25 start + 1.60/km"
+        }
+      ],
+      "nstops": "door-to-door"
+    }
+  ]
+}

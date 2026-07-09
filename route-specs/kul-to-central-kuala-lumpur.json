@@ -1,0 +1,73 @@
+{
+  "route": "KUL → Central Kuala Lumpur",
+  "note": "fares all-in, per person",
+  "lines": [
+    {
+      "mode": "regional",
+      "label": "KLIA Ekspres",
+      "fare": "MYR 55",
+      "time": "28–33 min",
+      "dashed": false,
+      "stops": [
+        {
+          "name": "KUL"
+        },
+        {
+          "name": "KL Sentral",
+          "seg": "non-stop · 28 min"
+        }
+      ],
+      "nstops": "non-stop"
+    },
+    {
+      "mode": "bus",
+      "label": "Airport Bus",
+      "fare": "MYR 11–15",
+      "time": "60–90 min",
+      "dashed": true,
+      "stops": [
+        {
+          "name": "KUL"
+        },
+        {
+          "name": "KL Sentral",
+          "seg": "Aerobus / Skybus"
+        }
+      ]
+    },
+    {
+      "mode": "ride",
+      "label": "Grab (GrabCar)",
+      "fare": "MYR 65–90",
+      "time": "50–90 min",
+      "dashed": true,
+      "stops": [
+        {
+          "name": "KUL"
+        },
+        {
+          "name": "KLCC/Bukit Bintang",
+          "seg": "+ ~MYR 10 toll"
+        }
+      ],
+      "nstops": "door-to-door"
+    },
+    {
+      "mode": "taxi",
+      "label": "Fixed-Fare Airport Taxi",
+      "fare": "MYR 85+",
+      "time": "50–90 min",
+      "dashed": true,
+      "stops": [
+        {
+          "name": "KUL"
+        },
+        {
+          "name": "Central KL",
+          "seg": "coupon · tolls included"
+        }
+      ],
+      "nstops": "door-to-door"
+    }
+  ]
+}

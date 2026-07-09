@@ -1,0 +1,63 @@
+{
+  "route": "SIN → Central Singapore",
+  "note": "fares all-in, per person",
+  "lines": [
+    {
+      "mode": "rail",
+      "label": "MRT (East-West Line)",
+      "fare": "~SGD 2.30",
+      "time": "40–45 min",
+      "dashed": false,
+      "stops": [
+        {
+          "name": "SIN"
+        },
+        {
+          "name": "Tanah Merah",
+          "seg": "airport shuttle · 2 stops",
+          "legStops": 2
+        },
+        {
+          "name": "City Hall",
+          "seg": "East-West Line · 9 stops",
+          "legStops": 9
+        }
+      ],
+      "nstops": "11 stops"
+    },
+    {
+      "mode": "taxi",
+      "label": "Metered Taxi",
+      "fare": "SGD 25–45",
+      "time": "20–35 min",
+      "dashed": true,
+      "stops": [
+        {
+          "name": "SIN"
+        },
+        {
+          "name": "City centre",
+          "seg": "meter + SGD 6 airport fee"
+        }
+      ],
+      "nstops": "door-to-door"
+    },
+    {
+      "mode": "ride",
+      "label": "Grab (ride-hail)",
+      "fare": "SGD 25–40",
+      "time": "25–45 min",
+      "dashed": true,
+      "stops": [
+        {
+          "name": "SIN"
+        },
+        {
+          "name": "City centre",
+          "seg": "fixed fare · door-to-door"
+        }
+      ],
+      "nstops": "door-to-door"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "route": "CAI → Central Cairo",
+  "note": "no metro at CAI — fares approx.",
+  "lines": [
+    {
+      "mode": "bus",
+      "label": "CTA Bus 356",
+      "fare": "15 EGP",
+      "time": "60–90 min",
+      "dashed": true,
+      "stops": [
+        {
+          "name": "CAI"
+        },
+        {
+          "name": "Abdel Moneim Riad",
+          "seg": "AC express · via Ramses"
+        }
+      ]
+    },
+    {
+      "mode": "ride",
+      "label": "Uber / Careem",
+      "fare": "$5–8",
+      "time": "25–75 min",
+      "dashed": true,
+      "stops": [
+        {
+          "name": "CAI"
+        },
+        {
+          "name": "Downtown (Tahrir)",
+          "seg": "250–400 EGP · upfront",
+          "via": "Ring Road"
+        }
+      ],
+      "nstops": "door-to-door"
+    },
+    {
+      "mode": "car",
+      "label": "Private transfer",
+      "fare": "$15–40",
+      "time": "30–60 min",
+      "dashed": true,
+      "stops": [
+        {
+          "name": "CAI"
+        },
+        {
+          "name": "Central Cairo",
+          "seg": "fixed price · name sign"
+        }
+      ],
+      "nstops": "door-to-door"
+    }
+  ]
+}

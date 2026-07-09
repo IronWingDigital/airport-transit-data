@@ -1,0 +1,59 @@
+{
+  "route": "BKK → Central Bangkok",
+  "note": "fares in THB; road options add expressway tolls",
+  "lines": [
+    {
+      "mode": "rail",
+      "label": "Airport Rail Link",
+      "fare": "15–45",
+      "time": "26–30 min",
+      "dashed": false,
+      "stops": [
+        {
+          "name": "BKK"
+        },
+        {
+          "name": "Phaya Thai",
+          "seg": "City Line · ~26 min",
+          "legStops": 7
+        }
+      ],
+      "nstops": "7 stops"
+    },
+    {
+      "mode": "ride",
+      "label": "Grab (GrabCar)",
+      "fare": "400–600",
+      "time": "35–75 min",
+      "dashed": true,
+      "stops": [
+        {
+          "name": "BKK"
+        },
+        {
+          "name": "Central Bangkok",
+          "seg": "fixed price + ~75 THB tolls"
+        }
+      ],
+      "nstops": "door-to-door"
+    },
+    {
+      "mode": "taxi",
+      "label": "Metered taxi",
+      "fare": "280–550",
+      "time": "35–90 min",
+      "dashed": true,
+      "stops": [
+        {
+          "name": "BKK"
+        },
+        {
+          "name": "Central Bangkok",
+          "seg": "meter + 50 THB surcharge",
+          "via": "Expressway (thang duan)"
+        }
+      ],
+      "nstops": "door-to-door"
+    }
+  ]
+}

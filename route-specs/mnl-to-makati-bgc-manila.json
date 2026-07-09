@@ -1,0 +1,62 @@
+{
+  "route": "MNL → Makati & BGC",
+  "note": "fares all-in, per person",
+  "lines": [
+    {
+      "mode": "ride",
+      "label": "Grab",
+      "fare": "₱300–₱600",
+      "time": "30–75 min",
+      "dashed": true,
+      "stops": [
+        {
+          "name": "MNL"
+        },
+        {
+          "name": "Makati / BGC",
+          "seg": "fixed app fare · no haggling"
+        }
+      ],
+      "nstops": "door-to-door"
+    },
+    {
+      "mode": "taxi",
+      "label": "Airport taxi (yellow)",
+      "fare": "₱250–₱550",
+      "time": "30–75 min",
+      "dashed": true,
+      "stops": [
+        {
+          "name": "MNL"
+        },
+        {
+          "name": "Makati / BGC",
+          "seg": "metered · ₱75 flag-fall"
+        }
+      ],
+      "nstops": "door-to-door"
+    },
+    {
+      "mode": "bus",
+      "label": "UBE Express + Carousel",
+      "fare": "₱150+",
+      "time": "45–90 min",
+      "dashed": true,
+      "stops": [
+        {
+          "name": "MNL"
+        },
+        {
+          "name": "PITX",
+          "seg": "UBE Express · ₱150"
+        },
+        {
+          "name": "Ayala, Makati",
+          "seg": "EDSA Carousel bus",
+          "legStops": 6
+        }
+      ],
+      "nstops": "~7 stops"
+    }
+  ]
+}

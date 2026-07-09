@@ -1,0 +1,78 @@
+{
+  "route": "ICN → Central Seoul",
+  "note": "fares all-in, per person",
+  "lines": [
+    {
+      "mode": "rail",
+      "label": "AREX All-Stop Train",
+      "fare": "≈₩5,000",
+      "time": "59 min",
+      "dashed": false,
+      "stops": [
+        {
+          "name": "ICN"
+        },
+        {
+          "name": "Seoul Station",
+          "seg": "AREX all-stop · 59 min",
+          "legStops": 12
+        }
+      ],
+      "nstops": "12 stops"
+    },
+    {
+      "mode": "regional",
+      "label": "AREX Express",
+      "fare": "₩13,000",
+      "time": "43 min",
+      "dashed": false,
+      "stops": [
+        {
+          "name": "ICN"
+        },
+        {
+          "name": "Seoul Station",
+          "seg": "non-stop · 43 min"
+        }
+      ],
+      "nstops": "non-stop"
+    },
+    {
+      "mode": "bus",
+      "label": "Airport Limousine Bus",
+      "fare": "₩17,000",
+      "time": "70–100 min",
+      "dashed": true,
+      "stops": [
+        {
+          "name": "ICN"
+        },
+        {
+          "name": "Gangnam",
+          "seg": "Route 6009 · luggage bays",
+          "legStops": 5,
+          "via": "Incheon / Yeongjong Bridge"
+        }
+      ],
+      "nstops": "~5 stops"
+    },
+    {
+      "mode": "taxi",
+      "label": "Taxi / KakaoTaxi",
+      "fare": "₩65,000+",
+      "time": "60–90 min",
+      "dashed": true,
+      "stops": [
+        {
+          "name": "ICN"
+        },
+        {
+          "name": "Central Seoul",
+          "seg": "metered · incl. tolls",
+          "via": "Incheon / Yeongjong Bridge"
+        }
+      ],
+      "nstops": "door-to-door"
+    }
+  ]
+}

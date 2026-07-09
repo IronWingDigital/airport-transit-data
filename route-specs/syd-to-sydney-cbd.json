@@ -1,0 +1,83 @@
+{
+  "route": "SYD → Sydney CBD",
+  "note": "fares all-in, per person",
+  "lines": [
+    {
+      "mode": "rail",
+      "label": "Airport Link Train",
+      "fare": "$22–23",
+      "time": "13–15 min",
+      "dashed": false,
+      "stops": [
+        {
+          "name": "SYD"
+        },
+        {
+          "name": "Central Station",
+          "seg": "T8 line · 13–15 min",
+          "legStops": 4
+        }
+      ],
+      "nstops": "4 stops"
+    },
+    {
+      "mode": "bus",
+      "label": "Bus 420 + train via Mascot",
+      "fare": "~$4–6",
+      "time": "40–60 min",
+      "dashed": true,
+      "stops": [
+        {
+          "name": "SYD"
+        },
+        {
+          "name": "Mascot Station",
+          "seg": "route 420 bus · 5–15 min",
+          "legStops": 2
+        },
+        {
+          "name": "Central",
+          "seg": "T8 train · ~8 min",
+          "legStops": 2
+        }
+      ],
+      "nstops": "~4 stops"
+    },
+    {
+      "mode": "ride",
+      "label": "Rideshare (Uber / DiDi)",
+      "fare": "$45–65",
+      "time": "20–55 min",
+      "dashed": true,
+      "stops": [
+        {
+          "name": "SYD"
+        },
+        {
+          "name": "Sydney CBD",
+          "seg": "door-to-door · 20–55 min",
+          "via": "Eastern Distributor"
+        }
+      ],
+      "nstops": "door-to-door"
+    },
+    {
+      "mode": "taxi",
+      "label": "Taxi (fixed CBD fare)",
+      "fare": "$60 flat",
+      "time": "20–55 min",
+      "dashed": true,
+      "stops": [
+        {
+          "name": "SYD"
+        },
+        {
+          "name": "Sydney CBD",
+          "seg": "fixed fare · incl. tolls",
+          "via": "Eastern Distributor"
+        }
+      ],
+      "nstops": "door-to-door"
+    }
+  ]
+}
