@@ -4,7 +4,7 @@
   "lines": [
     {
       "mode": "regional",
-      "label": "Intercity Train (OVpay)",
+      "label": "Airport Sprinter (OVpay)",
       "fare": "€5.50",
       "time": "15–20 min",
       "dashed": false,
@@ -14,9 +14,11 @@
         },
         {
           "name": "Amsterdam Centraal",
-          "seg": "Intercity · 15–20 min"
+          "seg": "Sprinter · every 7–8 min",
+          "legStops": 3
         }
-      ]
+      ],
+      "nstops": "3 stops"
     },
     {
       "mode": "bus",

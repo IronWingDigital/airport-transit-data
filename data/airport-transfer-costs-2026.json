@@ -3,14 +3,14 @@
   "airport": "AMS",
   "destination": "Central Amsterdam",
   "slug": "ams-to-central-amsterdam",
-  "option": "Intercity Train (OVpay)",
+  "option": "Airport Sprinter (OVpay)",
   "mode": "regional",
   "fare_local": "€5.50",
   "currency": "EUR",
   "fare_usd_mid": 6.28,
   "approx": false,
   "time": "15–20 min",
-  "stops": "",
+  "stops": "3 stops",
   "guide": "https://www.travelopshq.com/transit/ams-to-central-amsterdam"
  },
  {

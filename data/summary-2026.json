@@ -3,7 +3,7 @@
   "airport": "AMS",
   "destination": "Central Amsterdam",
   "slug": "ams-to-central-amsterdam",
-  "cheapest_public": "Intercity Train (OVpay)",
+  "cheapest_public": "Airport Sprinter (OVpay)",
   "public_usd": 6.28,
   "public_time": "15–20 min",
   "cheapest_door": "Official Schiphol Taxi",

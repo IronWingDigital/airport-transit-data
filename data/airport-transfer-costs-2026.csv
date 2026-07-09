@@ -1,5 +1,5 @@
 airport,destination,slug,option,mode,fare_local,currency,fare_usd_mid,approx,time,stops,guide
-AMS,Central Amsterdam,ams-to-central-amsterdam,Intercity Train (OVpay),regional,€5.50,EUR,6.28,False,15–20 min,,https://www.travelopshq.com/transit/ams-to-central-amsterdam
+AMS,Central Amsterdam,ams-to-central-amsterdam,Airport Sprinter (OVpay),regional,€5.50,EUR,6.28,False,15–20 min,3 stops,https://www.travelopshq.com/transit/ams-to-central-amsterdam
 AMS,Central Amsterdam,ams-to-central-amsterdam,Airport Express Bus 397,bus,€6.50,EUR,7.42,False,~30 min,~10 stops,https://www.travelopshq.com/transit/ams-to-central-amsterdam
 AMS,Central Amsterdam,ams-to-central-amsterdam,Official Schiphol Taxi,taxi,€45–€70,EUR,65.63,True,25–50 min,door-to-door,https://www.travelopshq.com/transit/ams-to-central-amsterdam
 ATH,Central Athens,ath-to-central-athens,Metro Line 3 (Blue),rail,€9,EUR,10.27,False,40–45 min,~15 stops,https://www.travelopshq.com/transit/ath-to-central-athens
