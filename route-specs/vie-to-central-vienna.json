@@ -1,20 +1,24 @@
 {
   "route": "VIE → Central Vienna",
-  "note": "fares all-in, per person",
+  "note": "Stammstrecke works to 31 Oct 2027 · fares all-in, per person",
   "lines": [
     {
       "mode": "rail",
-      "label": "S7 S-Bahn",
+      "label": "S7 S-Bahn + tram 18",
       "fare": "€5.40",
-      "time": "~25 min",
+      "time": "18 min + tram",
       "dashed": false,
       "stops": [
         {
           "name": "VIE"
         },
         {
-          "name": "Wien Mitte",
+          "name": "St. Marx",
           "seg": "S7 · every 30 min"
+        },
+        {
+          "name": "Schlachthausgasse (U3)",
+          "seg": "tram 18 · every 6 min"
         }
       ]
     },
@@ -36,18 +40,18 @@
       "nstops": "non-stop"
     },
     {
-      "mode": "regional",
-      "label": "CAT City Airport Train",
+      "mode": "bus",
+      "label": "CAT by bus",
       "fare": "€14.90",
-      "time": "16 min",
-      "dashed": false,
+      "time": "21 min",
+      "dashed": true,
       "stops": [
         {
           "name": "VIE"
         },
         {
           "name": "Wien Mitte",
-          "seg": "non-stop · every 30 min"
+          "seg": "non-stop · every 12–15 min"
         }
       ],
       "nstops": "non-stop"

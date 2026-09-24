@@ -520,9 +520,9 @@
   "airport": "VIE",
   "destination": "Central Vienna",
   "slug": "vie-to-central-vienna",
-  "cheapest_public": "S7 S-Bahn",
+  "cheapest_public": "S7 S-Bahn + tram 18",
   "public_usd": 6.16,
-  "public_time": "~25 min",
+  "public_time": "18 min + tram",
   "cheapest_door": "Licensed Airport Taxi",
   "door_usd": 46.23,
   "taxi_multiple": 7.5

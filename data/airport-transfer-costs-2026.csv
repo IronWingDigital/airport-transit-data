@@ -158,9 +158,9 @@ SYD,Sydney CBD,syd-to-sydney-cbd,Taxi (fixed CBD fare),taxi,$60 flat,AUD,41.59,F
 TPE,Central Taipei,tpe-to-central-taipei,Airport MRT Express,rail,NT$160,TWD,4.98,False,35–39 min,3 stops,https://www.travelopshq.com/transit/tpe-to-central-taipei
 TPE,Central Taipei,tpe-to-central-taipei,Kuo-Kuang 1819 bus,bus,NT$135,TWD,4.21,False,60–80 min,6 stops,https://www.travelopshq.com/transit/tpe-to-central-taipei
 TPE,Central Taipei,tpe-to-central-taipei,Official Metered Taxi,taxi,~$40–50,USD,45.0,True,45–70 min,door-to-door,https://www.travelopshq.com/transit/tpe-to-central-taipei
-VIE,Central Vienna,vie-to-central-vienna,S7 S-Bahn,rail,€5.40,EUR,6.16,False,~25 min,,https://www.travelopshq.com/transit/vie-to-central-vienna
+VIE,Central Vienna,vie-to-central-vienna,S7 S-Bahn + tram 18,rail,€5.40,EUR,6.16,False,18 min + tram,,https://www.travelopshq.com/transit/vie-to-central-vienna
 VIE,Central Vienna,vie-to-central-vienna,ÖBB Railjet,regional,€5.40,EUR,6.16,False,15 min,non-stop,https://www.travelopshq.com/transit/vie-to-central-vienna
-VIE,Central Vienna,vie-to-central-vienna,CAT City Airport Train,regional,€14.90,EUR,17.01,False,16 min,non-stop,https://www.travelopshq.com/transit/vie-to-central-vienna
+VIE,Central Vienna,vie-to-central-vienna,CAT by bus,bus,€14.90,EUR,17.01,False,21 min,non-stop,https://www.travelopshq.com/transit/vie-to-central-vienna
 VIE,Central Vienna,vie-to-central-vienna,Licensed Airport Taxi,taxi,€36–45,EUR,46.23,True,20–35 min,door-to-door,https://www.travelopshq.com/transit/vie-to-central-vienna
 YYZ,Downtown Toronto,yyz-to-downtown-toronto,UP Express,regional,$9.25,CAD,6.53,False,28 min,4 stops,https://www.travelopshq.com/transit/yyz-to-downtown-toronto
 YYZ,Downtown Toronto,yyz-to-downtown-toronto,TTC 900 bus + subway,bus,$3.30,CAD,2.33,False,55–80 min,~17 stops,https://www.travelopshq.com/transit/yyz-to-downtown-toronto
