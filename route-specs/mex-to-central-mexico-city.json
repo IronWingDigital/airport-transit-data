@@ -1,11 +1,11 @@
 {
   "route": "MEX → Central Mexico City",
-  "note": "fares approx. USD, per person",
+  "note": "Metro fare in MXN; other fares approx. USD, per person",
   "lines": [
     {
       "mode": "rail",
       "label": "Metro Line 5 + Line 1",
-      "fare": "~$0.30",
+      "fare": "5 MXN",
       "time": "35–55 min",
       "dashed": false,
       "stops": [

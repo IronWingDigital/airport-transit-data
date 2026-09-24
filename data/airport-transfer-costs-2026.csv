@@ -17,7 +17,7 @@ BKK,Central Bangkok,bkk-to-central-bangkok,Metered taxi,taxi,280–550,THB,12.4,
 BUD,Central Budapest,bud-to-central-budapest,100E Airport Express,bus,2500 HUF,HUF,7.95,False,35–50 min,3 stops,https://www.travelopshq.com/transit/bud-to-central-budapest
 BUD,Central Budapest,bud-to-central-budapest,200E Bus + Metro M3,bus,850 HUF,HUF,2.7,False,45–65 min,~22 stops,https://www.travelopshq.com/transit/bud-to-central-budapest
 BUD,Central Budapest,bud-to-central-budapest,Bolt / Uber licensed taxi,ride,€28–€37,EUR,37.09,True,25–40 min,door-to-door,https://www.travelopshq.com/transit/bud-to-central-budapest
-CAI,Central Cairo,cai-to-central-cairo,CTA Bus 356,bus,15 EGP,EGP,0.3,False,60–90 min,,https://www.travelopshq.com/transit/cai-to-central-cairo
+CAI,Central Cairo,cai-to-central-cairo,CTA AC bus (356),bus,~25 EGP,EGP,0.5,True,60–90 min,,https://www.travelopshq.com/transit/cai-to-central-cairo
 CAI,Central Cairo,cai-to-central-cairo,Uber / Careem,ride,$5–8,USD,6.5,True,25–75 min,door-to-door,https://www.travelopshq.com/transit/cai-to-central-cairo
 CAI,Central Cairo,cai-to-central-cairo,Private transfer,car,$15–40,USD,27.5,True,30–60 min,door-to-door,https://www.travelopshq.com/transit/cai-to-central-cairo
 CAN,Central Guangzhou,can-to-central-guangzhou,Metro Line 3,rail,¥8,CNY,1.17,False,40–50 min,13 stops,https://www.travelopshq.com/transit/can-to-central-guangzhou
@@ -78,7 +78,7 @@ ICN,Central Seoul,icn-to-central-seoul,AREX All-Stop Train,rail,"≈₩5,000",KR
 ICN,Central Seoul,icn-to-central-seoul,AREX Express,regional,"₩13,000",KRW,8.63,False,43 min,non-stop,https://www.travelopshq.com/transit/icn-to-central-seoul
 ICN,Central Seoul,icn-to-central-seoul,Airport Limousine Bus,bus,"₩17,000",KRW,11.29,False,70–100 min,~5 stops,https://www.travelopshq.com/transit/icn-to-central-seoul
 ICN,Central Seoul,icn-to-central-seoul,Taxi / KakaoTaxi,taxi,"₩65,000+",KRW,43.16,True,60–90 min,door-to-door,https://www.travelopshq.com/transit/icn-to-central-seoul
-IST,Central Istanbul,ist-to-central-istanbul,M11 Metro + M2,rail,38.49 TRY,TRY,0.82,False,50–65 min,~9 stops,https://www.travelopshq.com/transit/ist-to-central-istanbul
+IST,Central Istanbul,ist-to-central-istanbul,M11 Metro + M2,rail,~38–48 TRY,TRY,0.92,True,50–65 min,~9 stops,https://www.travelopshq.com/transit/ist-to-central-istanbul
 IST,Central Istanbul,ist-to-central-istanbul,Havaist Airport Bus,bus,426 TRY,TRY,9.08,False,80–100 min,3–4 stops,https://www.travelopshq.com/transit/ist-to-central-istanbul
 IST,Central Istanbul,ist-to-central-istanbul,Yellow Metered Taxi,taxi,€32–47,EUR,45.08,True,45–90 min,door-to-door,https://www.travelopshq.com/transit/ist-to-central-istanbul
 IST,Central Istanbul,ist-to-central-istanbul,Private Transfer,car,€35–55,EUR,51.36,True,35–50 min,door-to-door,https://www.travelopshq.com/transit/ist-to-central-istanbul
@@ -107,7 +107,7 @@ LHR,Central London,lhr-to-central-london,Uber / rideshare,ride,£40–£70,GBP,7
 LIS,Central Lisbon,lis-to-central-lisbon,Metro Red + Green Line,rail,€1.90,EUR,2.17,False,30–45 min,15 stops,https://www.travelopshq.com/transit/lis-to-central-lisbon
 LIS,Central Lisbon,lis-to-central-lisbon,Uber / Bolt / FREE NOW,ride,€12–€22,EUR,19.4,True,15–30 min,door-to-door,https://www.travelopshq.com/transit/lis-to-central-lisbon
 LIS,Central Lisbon,lis-to-central-lisbon,Private transfer,car,€30–€55,EUR,48.51,True,20–35 min,door-to-door,https://www.travelopshq.com/transit/lis-to-central-lisbon
-MEX,Central Mexico City,mex-to-central-mexico-city,Metro Line 5 + Line 1,rail,~$0.30,USD,0.3,True,35–55 min,~11 stops,https://www.travelopshq.com/transit/mex-to-central-mexico-city
+MEX,Central Mexico City,mex-to-central-mexico-city,Metro Line 5 + Line 1,rail,5 MXN,MXN,0.28,False,35–55 min,~11 stops,https://www.travelopshq.com/transit/mex-to-central-mexico-city
 MEX,Central Mexico City,mex-to-central-mexico-city,Metrobús Line 4,bus,~$1.60,USD,1.6,True,45–70 min,~10 stops,https://www.travelopshq.com/transit/mex-to-central-mexico-city
 MEX,Central Mexico City,mex-to-central-mexico-city,Uber / DiDi,ride,$10–19,USD,14.5,True,20–50 min,door-to-door,https://www.travelopshq.com/transit/mex-to-central-mexico-city
 MEX,Central Mexico City,mex-to-central-mexico-city,Authorized taxi,taxi,$13–25,USD,19.0,True,25–50 min,door-to-door,https://www.travelopshq.com/transit/mex-to-central-mexico-city
@@ -127,7 +127,7 @@ NBO,Central Nairobi,nbo-to-central-nairobi,KAA fixed-rate taxi,taxi,~$15–27,US
 NRT,Central Tokyo,nrt-to-central-tokyo,Keisei Skyliner,rail,"¥2,580",JPY,15.87,False,36–41 min,non-stop,https://www.travelopshq.com/transit/nrt-to-central-tokyo
 NRT,Central Tokyo,nrt-to-central-tokyo,N'EX (Narita Express),regional,"¥3,140+",JPY,19.32,True,60–85 min,~2 stops,https://www.travelopshq.com/transit/nrt-to-central-tokyo
 NRT,Central Tokyo,nrt-to-central-tokyo,AIRPORT BUS TYO-NRT,bus,"¥1,500",JPY,9.23,False,65–100 min,non-stop,https://www.travelopshq.com/transit/nrt-to-central-tokyo
-NRT,Central Tokyo,nrt-to-central-tokyo,Taxi (fixed-fare),taxi,¥20k–30k,JPY,153.83,True,60–90 min,door-to-door,https://www.travelopshq.com/transit/nrt-to-central-tokyo
+NRT,Central Tokyo,nrt-to-central-tokyo,Taxi (fixed-fare),taxi,"¥29,000–32,500",JPY,189.21,True,60–90 min,door-to-door,https://www.travelopshq.com/transit/nrt-to-central-tokyo
 ORD,Downtown Chicago,ord-to-downtown-chicago,CTA Blue Line,rail,$5.00,USD,5.0,False,40–45 min,16 stops,https://www.travelopshq.com/transit/ord-to-downtown-chicago
 ORD,Downtown Chicago,ord-to-downtown-chicago,Metra North Central,regional,$3.75,USD,3.75,False,~40 min,6 rail stops,https://www.travelopshq.com/transit/ord-to-downtown-chicago
 ORD,Downtown Chicago,ord-to-downtown-chicago,Uber / Lyft,ride,$40–$65,USD,52.5,True,30–55 min,door-to-door,https://www.travelopshq.com/transit/ord-to-downtown-chicago

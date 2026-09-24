@@ -13,7 +13,7 @@ and its 50 [airport transit guides](https://www.travelopshq.com/transit).
 |---|---|
 | `data/airport-transfer-costs-2026.csv` / `.json` | One row per transit option: airport, destination, option, mode, local fare, currency, USD midpoint, journey time, stop count, source guide URL |
 | `data/summary-2026.json` | One row per city: cheapest public option, cheapest door-to-door option, taxi-to-transit multiple |
-| `data/fx-rates.json` | The exact FX rates used for USD normalization (USD base, ECB-adjacent daily rates, dated) |
+| `data/fx-rates.json` | The exact FX rates used for USD normalization (USD base, one open.er-api.com snapshot dated 09 Jul 2026) |
 | `route-specs/*.json` | The full structured route specs: per-line stops, per-leg verified stop counts, fares, times, and major-road annotations |
 
 ## Methodology

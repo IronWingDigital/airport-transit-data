@@ -1,11 +1,11 @@
 {
   "route": "CAI → Central Cairo",
-  "note": "no metro at CAI — fares approx.",
+  "note": "no metro at CAI — bus route unconfirmed, fares approx.",
   "lines": [
     {
       "mode": "bus",
-      "label": "CTA Bus 356",
-      "fare": "15 EGP",
+      "label": "CTA AC bus (356)",
+      "fare": "~25 EGP",
       "time": "60–90 min",
       "dashed": true,
       "stops": [
@@ -16,7 +16,8 @@
           "name": "Abdel Moneim Riad",
           "seg": "AC express · via Ramses"
         }
-      ]
+      ],
+      "estimate": true
     },
     {
       "mode": "ride",

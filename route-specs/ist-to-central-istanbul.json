@@ -1,11 +1,11 @@
 {
   "route": "IST → Central Istanbul",
-  "note": "fares all-in, per person",
+  "note": "M11 fare distance-based, approx. · fares all-in, per person",
   "lines": [
     {
       "mode": "rail",
       "label": "M11 Metro + M2",
-      "fare": "38.49 TRY",
+      "fare": "~38–48 TRY",
       "time": "50–65 min",
       "dashed": false,
       "stops": [
@@ -23,7 +23,8 @@
           "legStops": 3
         }
       ],
-      "nstops": "~9 stops"
+      "nstops": "~9 stops",
+      "estimate": true
     },
     {
       "mode": "bus",
@@ -57,7 +58,8 @@
           "seg": "metered · no night tariff"
         }
       ],
-      "nstops": "door-to-door"
+      "nstops": "door-to-door",
+      "estimate": true
     },
     {
       "mode": "car",

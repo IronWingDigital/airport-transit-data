@@ -69,12 +69,12 @@
   "airport": "CAI",
   "destination": "Central Cairo",
   "slug": "cai-to-central-cairo",
-  "cheapest_public": "CTA Bus 356",
-  "public_usd": 0.3,
+  "cheapest_public": "CTA AC bus (356)",
+  "public_usd": 0.5,
   "public_time": "60–90 min",
   "cheapest_door": "Uber / Careem",
   "door_usd": 6.5,
-  "taxi_multiple": 21.7
+  "taxi_multiple": 13.0
  },
  {
   "airport": "CAN",
@@ -268,11 +268,11 @@
   "destination": "Central Istanbul",
   "slug": "ist-to-central-istanbul",
   "cheapest_public": "M11 Metro + M2",
-  "public_usd": 0.82,
+  "public_usd": 0.92,
   "public_time": "50–65 min",
   "cheapest_door": "Yellow Metered Taxi",
   "door_usd": 45.08,
-  "taxi_multiple": 55.0
+  "taxi_multiple": 49.0
  },
  {
   "airport": "JFK",
@@ -356,11 +356,11 @@
   "destination": "Central Mexico City",
   "slug": "mex-to-central-mexico-city",
   "cheapest_public": "Metro Line 5 + Line 1",
-  "public_usd": 0.3,
+  "public_usd": 0.28,
   "public_time": "35–55 min",
   "cheapest_door": "Uber / DiDi",
   "door_usd": 14.5,
-  "taxi_multiple": 48.3
+  "taxi_multiple": 51.8
  },
  {
   "airport": "MIA",
@@ -414,8 +414,8 @@
   "public_usd": 9.23,
   "public_time": "65–100 min",
   "cheapest_door": "Taxi (fixed-fare)",
-  "door_usd": 153.83,
-  "taxi_multiple": 16.7
+  "door_usd": 189.21,
+  "taxi_multiple": 20.5
  },
  {
   "airport": "ORD",
