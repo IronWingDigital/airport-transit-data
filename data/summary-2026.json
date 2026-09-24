@@ -74,7 +74,7 @@
   "public_time": "60–90 min",
   "cheapest_door": "Uber / Careem",
   "door_usd": 6.5,
-  "taxi_multiple": 13.0
+  "taxi_multiple": 12.9
  },
  {
   "airport": "CAN",
@@ -85,7 +85,7 @@
   "public_time": "40–50 min",
   "cheapest_door": "DiDi (rideshare)",
   "door_usd": 13.22,
-  "taxi_multiple": 11.3
+  "taxi_multiple": 11.2
  },
  {
   "airport": "CDG",
@@ -162,7 +162,7 @@
   "public_time": "16–25 min",
   "cheapest_door": "Karwa Taxi",
   "door_usd": 15.8,
-  "taxi_multiple": 28.7
+  "taxi_multiple": 28.8
  },
  {
   "airport": "DUB",
@@ -184,7 +184,7 @@
   "public_time": "25–30 + walk",
   "cheapest_door": "Uber / Careem",
   "door_usd": 15.66,
-  "taxi_multiple": 10.4
+  "taxi_multiple": 10.5
  },
  {
   "airport": "EWR",
@@ -272,7 +272,7 @@
   "public_time": "50–65 min",
   "cheapest_door": "Yellow Metered Taxi",
   "door_usd": 45.08,
-  "taxi_multiple": 49.0
+  "taxi_multiple": 49.2
  },
  {
   "airport": "JFK",
@@ -360,7 +360,7 @@
   "public_time": "35–55 min",
   "cheapest_door": "Uber / DiDi",
   "door_usd": 14.5,
-  "taxi_multiple": 51.8
+  "taxi_multiple": 51.0
  },
  {
   "airport": "MIA",
