@@ -2,7 +2,7 @@ cff-version: 1.2.0
 message: "If you use this dataset, please cite it as below and link to https://www.travelopshq.com."
 type: dataset
 title: "Airport transit data: airport-to-city transit and taxi costs for 50 airports"
-abstract: "Fares, journey times, modes and stop counts for every airport-to-city-centre transit option (plus taxi/rideshare) across 50 world airports, verified in July 2026 against official operator fare pages and timetables."
+abstract: "Fares, journey times, modes and stop counts for every airport-to-city-centre transit option (plus taxi/rideshare) across 50 world airports, checked in July 2026 against official operator fare pages and timetables (168 of 171 verified; 3 flagged as estimates)."
 authors:
   - name: "TravelOpsHQ (IronWing Digital)"
     website: "https://www.travelopshq.com"
